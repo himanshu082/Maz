@@ -1,0 +1,49 @@
+﻿@model ScriptsGenerator.Models.GenerateScriptModel
+<form name="myForm">
+    <div style="margin-left:20px; margin-top:20px; margin-bottom:20px;">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="dropdown col-md-10">
+                    SiteCountry:   <select name="site" class="dropdown" id="site" ng-model="site" ng-change="changeSite(site)">
+                        <option value="" selected disabled>Select Site</option>
+                        <option value="US">US</option>
+                        <option value="MX">MX</option>
+                        <option value="CA">CA</option>
+                        <option value="JP">JP</option>
+                        <option value="HK">HK</option>
+                        <option value="AU">AU</option>
+                        <option value="KR">KR</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    SelectedLanguages:<input id="languageResponse" ng-model="lName" class="form-control" readonly />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    PageName:<input id="pName" ng-model="pName" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    TagName:<input id="tName" ng-model="tName" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    CreatedBy:<input id="createdby" ng-model="createdby" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="form-inline">
+            <div class="form-group">
+                <input ng-disabled="myForm.$pristine" type="button" class="btn btn-primary" value="Generate XML" ng-click="saveScript()">
+            </div>
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" value="Generate Script" ng-click="readScript()">
+            </div>
+        </div>
+    </div>
+</form>

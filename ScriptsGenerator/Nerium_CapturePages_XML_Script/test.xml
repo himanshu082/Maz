@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Script>
+  <Row>
+    <Key>US-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>MX-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>CA-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>JP-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>HK-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>AU-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>KR-EN-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-ENG-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>9a9cad81-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>US-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>MX-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>CA-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>JP-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>HK-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>AU-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+  <Row>
+    <Key>KR-ES-US</Key>
+    <CapturePageName>NewProductInterest</CapturePageName>
+    <TagName>New Product Interest</TagName>
+    <MarketingListName>US-SPA-NEW-PRODUCT</MarketingListName>
+    <MarketingListId>71339b93-33a5-e611-80ed-5065f38a19e1</MarketingListId>
+    <CreatedBy>US6196</CreatedBy>
+  </Row>
+</Script>

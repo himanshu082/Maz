@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NeriumReportingSandbox2ModelStoreContainer" CdmEntityContainer="NeriumReportingSandbox2Entities">
+    <EntitySetMapping Name="CapturePageTagInfoes">
+      <EntityTypeMapping TypeName="NeriumReportingSandbox2Model.CapturePageTagInfo">
+        <MappingFragment StoreEntitySet="CapturePageTagInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="CapturePageName" ColumnName="CapturePageName" />
+          <ScalarProperty Name="TagName" ColumnName="TagName" />
+          <ScalarProperty Name="TagId" ColumnName="TagId" />
+          <ScalarProperty Name="MarketingListName" ColumnName="MarketingListName" />
+          <ScalarProperty Name="MarketingListId" ColumnName="MarketingListId" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
