@@ -4,5 +4,5 @@ newApp.factory('CountryService', ['$http', '$q', '$resource', function ($http, $
     return $resource('/Scripts/Create');
 }]);
 newApp.factory('ScriptService', ['$http', '$q', '$resource', function ($http, $q, $resource) {
-    return $resource('/Scripts/ReadXMLScript', {}, {isArray: false});
+    return $resource('/Scripts/ReadXMLScript', {}, { isArray: true });
 }]);

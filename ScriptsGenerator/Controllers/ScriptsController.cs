@@ -57,7 +57,7 @@ namespace ScriptsGenerator.Controllers
                         }
                     }
 
-                    /* Uncomment this code when we are going to add new country for an existing capture page */
+                    /* Uncomment this part of code when a new country needs to added for an existing capture page */
                     //List<CountryLanguagesDto> countryLangaugesList = GetCountryWithLanguages();
                     //foreach (var siteLang in countryLangaugesList.Where(x => x.Country != generateScriptModel.SiteCountry))
                     //{
@@ -169,7 +169,7 @@ namespace ScriptsGenerator.Controllers
         {
             public string message { get; set; }
         }
-        public void ReadXMLScript()
+        public string ReadXMLScript()
         {
             Logic _logic = new Logic();
             try
@@ -217,19 +217,18 @@ namespace ScriptsGenerator.Controllers
                     builder.Append("END TRY\n BEGIN CATCH\n \tPRINT 'In CATCH Block'\n \tSELECT ERROR_MESSAGE() AS ErrorMessage;\n END CATCH;");
                     writetext.WriteLine(builder);
                 }
-                //ro.message = "Script Generated";
-                //var jsonSerialiser = new JavaScriptSerializer();
-                //var json = jsonSerialiser.Serialize(ro);
-                //return json;
+                ro.message = "Script Generated";
+                var jsonSerialiser = new JavaScriptSerializer();
+                var json = jsonSerialiser.Serialize(ro);
+                return json;
             }
             catch (Exception e)
             {
-               string message = e.Message;
-                //ReturnObject ro = new ReturnObject();
-                //ro.message = ;
-                //var jsonSerialiser = new JavaScriptSerializer();
-                //var json = jsonSerialiser.Serialize(ro);
-                //return json;
+                ReturnObject ro = new ReturnObject();
+                ro.message = e.Message;
+                var jsonSerialiser = new JavaScriptSerializer();
+                var json = jsonSerialiser.Serialize(ro);
+                return json;
             }
         }
     }

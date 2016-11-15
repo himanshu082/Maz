@@ -32,7 +32,7 @@
         });
     }
     $scope.readScript = function () {
-        ScriptService.query({}, function (response) {
+        ScriptService.save(function (response) {
             $scope.message = response.message;
             alert(JSON.stringify($scope.message));
         });
